@@ -1,0 +1,197 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 50px;
+    height: 10000px;
+  }
+  
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #e7e7ee, #f1f1f1, #c5e3ec, #aaddec, #90d5ec);
+    z-index: -1;
+  }
+  
+  
+  #container {
+    z-index: 1;
+  }
+
+.topnav {
+    width: 90%;
+    height: 50px;
+    position: absolute;
+    border-radius: 50px;
+    background-color: #42453d;
+    overflow: hidden;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    width: 20%;
+    margin: 0 auto;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+background-color: #a5ccb1;
+color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+background-color: #60ce80;
+color: black;
+}
+
+.logoblock {
+    display: flex;
+    align-self: center;
+    height: 60%;
+    width: 100000000vw;
+    background-color: aqua;
+}
+
+.logo {
+    display: flex;
+}
+
+.loginButton {
+    position: flex;
+    width: 20%;
+    background-color: #42453d;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.buttonbox {
+    background-color: #c5e3ec;
+    display: flex;
+    align-self: center;
+    align-content: space-evenly;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: -800px;
+
+}
+#container {
+    width: 800px;
+    height: 500px;
+    margin: 75px auto 0;
+    border: 2px solid #154360;
+    
+}
+.form{
+    padding: 10px;
+    z-index: 2;
+    position: relative;
+    display:block;
+    border: 2px solid #154360;
+}
+body{
+    overflow: auto;
+}
+#buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    z-index: 1;
+}
+  
+#buttons button {
+    background-color: #d4d4d4;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 8px 8px;
+    text-decoration: none;
+    font-size: 15px;
+    z-index: 1;
+}
+.welcome {
+    padding: 10px 5px;
+    text-align: center;
+    color: #d4d4d4;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .form {
+    max-width: 800px;
+    margin: auto;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form input[type="text"],
+  .form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e5e5e5;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .form button {
+    background-color: #c5e3ec;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .form button:hover {
+    background-color: #c5e3ec;
+  }
+  
+  .form button:active {
+    transform: translateY(2px);
+  }
+  
+  .form button:focus {
+    outline: none;
+  }
+  .logo-container {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    opacity: 0.5; 
+  }
+  
+  .logo {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+  }
+  

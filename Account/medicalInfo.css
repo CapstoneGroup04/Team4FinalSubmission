@@ -1,0 +1,75 @@
+head {
+    background-color: #f0f0f0
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(to bottom, #e7e7ee, #f1f1f1, #c5e3ec, #aaddec, #90d5ec);
+    text-align: center;
+}
+
+table, th, td {
+    color: #153460; 
+    text-align: left;
+    border: 3px solid #90d5ec;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.welcome {
+    padding: 10px 5px;
+    text-align: center;
+    color: #d4d4d4;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .account-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .account-button:hover {
+    background-color: #999;
+  }
+  
+  .account-button a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .account-button a:hover {
+    text-decoration: underline;
+  }
+  
+  .account-button:hover a::after {
+    content: "account info";
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px;
+    background-color: #999;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 12px;
+    white-space: nowrap;
+  }
+  
+  .size {
+    max-width: 25px;
+}  

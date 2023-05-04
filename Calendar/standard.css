@@ -1,0 +1,43 @@
+body {
+  padding-top: 50px;
+  background-color: #c5edd1;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.NAVBAR{
+  font-size: medium;
+  border-radius: 30px 30px 30px 30px;
+  margin-top: -30px;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #154360;
+}
+
+.navbar-brand {
+  float: left;
+  padding-left: 50px;
+}
+
+#ACTIVE {
+  background-color: white;
+  color: black;
+}
+
+@media (min-width: 768px){
+  .navbar-nav {
+      margin: 0 auto;
+      display: table;
+      table-layout: auto;
+      float: none;
+      width: 100%;
+  }
+  .navbar-nav>li {
+      display: table-cell;
+      float: none;
+      text-align: center;
+  }
+} 
+
